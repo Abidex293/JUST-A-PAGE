@@ -1,0 +1,40 @@
+body{
+  background-image: url("pictures/pexels-nextvoyage-730662.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: block;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -10px;
+  color: rgb(233, 8, 61);
+  font-weight: bolder;
+}
+.middle-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 4px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgb(233, 8, 61);
+  font-weight: bolder;
+  margin-top: 60px;
+}
+.paragraph-div{
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(233, 8, 61);
+}
+.top-left{
+  font-size: 15px;
+  margin-left: -4px;
+  margin-top: -15px;
+}
+.top-right li{
+  list-style: none;
+}
